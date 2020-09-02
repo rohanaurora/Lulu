@@ -1,1 +1,4 @@
 # Lulu
+
+
+![](Images/LuluDemo.gif)
