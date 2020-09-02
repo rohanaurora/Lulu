@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="84" id="AxB-Me-6xC" customClass="ListTableViewCell" customModule="Lulu" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="326" height="84"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="AxB-Me-6xC" id="hNJ-Nh-F3p">
+                <rect key="frame" x="0.0" y="0.0" width="326" height="84"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Garment Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lwb-XI-f5J">
+                        <rect key="frame" x="15" y="31.5" width="296" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="Lwb-XI-f5J" secondAttribute="trailing" constant="15" id="Dxu-om-oVh"/>
+                    <constraint firstItem="Lwb-XI-f5J" firstAttribute="centerX" secondItem="hNJ-Nh-F3p" secondAttribute="centerX" id="FPw-eB-cQl"/>
+                    <constraint firstItem="Lwb-XI-f5J" firstAttribute="leading" secondItem="hNJ-Nh-F3p" secondAttribute="leading" constant="15" id="Rzu-vr-eEG"/>
+                    <constraint firstItem="Lwb-XI-f5J" firstAttribute="centerY" secondItem="hNJ-Nh-F3p" secondAttribute="centerY" id="nm9-6h-Yda"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="itemLabel" destination="Lwb-XI-f5J" id="E1D-qH-Vuz"/>
+            </connections>
+            <point key="canvasLocation" x="-321.73913043478262" y="-265.17857142857144"/>
+        </tableViewCell>
+    </objects>
+</document>
