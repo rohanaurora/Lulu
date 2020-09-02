@@ -1,0 +1,10 @@
+.DS_Store
+__MACOSX
+*.pbxuser
+!default.pbxuser
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+profile
+DerivedData
+Provisioning
